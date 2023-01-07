@@ -12,8 +12,8 @@ body {
 	height: 100%;
     min-height: 500px;
 	display: flex;
-    background: url(https://papers.co/wallpaper/papers.co-sk61-dark-purple-blur-gradation-29-wallpaper.jpg);
-    background-repeat: no-repeat;
+    background: #45255B;
+    background: linear-gradient(to top, #45255B 100%, #C085CF 38%);
     background-attachment: fixed;
     background-size: cover;
 	flex-direction: column;
@@ -26,7 +26,8 @@ body {
     padding: 30px;
 	position:relative;
 	overflow: hidden;
-    background: url(https://papers.co/wallpaper/papers.co-sk61-dark-purple-blur-gradation-29-wallpaper.jpg);
+    background: #45255B;
+    background: linear-gradient(to top, #45255B 100%, #C085CF 38%);
 	background-size: 500% 500%;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .form {
-	text-align: center;
+	text-align: left;
 	width: 250px;
 	height: 25px;
 	margin-bottom: 5px;
@@ -78,7 +79,6 @@ label {
     color: #fff ;
 	text-align: left;
 	float: left;
-		
   }
 
 /* Predict Button */
@@ -88,7 +88,7 @@ label {
 	margin-top: 10px;
     padding: 10px 36px;
     color: #fff;
-    background: #573b8a;
+    background: #6d44b8; 
     font-size: 1em;
     display: inline-block;
     font-family: 'Jost', sans-serif;
@@ -96,7 +96,11 @@ label {
 }
 
 .my-cta-button:hover{
-    background: #6d44b8;
+    
+    background:#221c35;
+    background: -webkit-linear-gradient(top, #221c35, #3e1046);
+    background: -moz-linear-gradient(top, #221c35, #3e1046);
+    background: linear-gradient(to bottom, #221c35, #3e1046);    
 }
 
 .my-cta-button:active{
@@ -109,11 +113,10 @@ label {
     text-align: center;
     margin: 0;
     padding: 0;
-    width: 95%;
-	height: 100%;
     min-height: 500px;
 	display: flex;
-    background: url(https://papers.co/wallpaper/papers.co-sk61-dark-purple-blur-gradation-29-wallpaper.jpg);
+    background: #45255B;
+    background: linear-gradient(to top, #45255B 100%, #C085CF 38%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -124,11 +127,11 @@ label {
 
 .danger{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #D8B9C3;
+    color: #fff;
 }
 
 .safe{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #D8B9C3;
+    color: #fff;
 }
 
